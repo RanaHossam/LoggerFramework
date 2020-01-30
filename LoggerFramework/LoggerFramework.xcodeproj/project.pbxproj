@@ -48,11 +48,19 @@
 		DCDDCD2A23E304830021A875 /* LoggerFramework */ = {
 			isa = PBXGroup;
 			children = (
-				DCDDCD2B23E304830021A875 /* LoggerFramework.h */,
-				DCDDCD2C23E304830021A875 /* Info.plist */,
-				DCDDCD3323E305120021A875 /* NiceLogger.swift */,
+				DCDDCD3523E313B80021A875 /* Classes */,
 			);
 			path = LoggerFramework;
+			sourceTree = "<group>";
+		};
+		DCDDCD3523E313B80021A875 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DCDDCD3323E305120021A875 /* NiceLogger.swift */,
+				DCDDCD2C23E304830021A875 /* Info.plist */,
+				DCDDCD2B23E304830021A875 /* LoggerFramework.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
