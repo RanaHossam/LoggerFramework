@@ -1,0 +1,16 @@
+PODS:
+  - LoggerFramework (0.1.0)
+
+DEPENDENCIES:
+  - LoggerFramework (~> 0.1.0)
+
+SPEC REPOS:
+  trunk:
+    - LoggerFramework
+
+SPEC CHECKSUMS:
+  LoggerFramework: 8e64db7b896ff19496933d5f4663e362493127a5
+
+PODFILE CHECKSUM: 07e3c4b4f29c336953ec35531138c1a2bf934ecb
+
+COCOAPODS: 1.8.3
