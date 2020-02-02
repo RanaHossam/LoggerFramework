@@ -84,7 +84,9 @@ Pod::Spec.new do |spec|
   #
 
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "Classes/**/*.h"
+  spec.source_files  = "Classes", "LoggerFramework/LoggerFramework/Classes/**/*.{h,m}"
+  
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
