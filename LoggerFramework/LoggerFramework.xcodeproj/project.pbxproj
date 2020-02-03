@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024CBC3D1F92B07F00A6D083 /* NiceLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024CBC331F92B07F00A6D083 /* NiceLogger.framework */; };
+		024CBC3D1F92B07F00A6D083 /* LoggerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024CBC331F92B07F00A6D083 /* LoggerFramework.framework */; };
 		024CBC421F92B08000A6D083 /* NiceLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CBC411F92B08000A6D083 /* NiceLoggerTests.swift */; };
 		024CBC441F92B08000A6D083 /* NiceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 024CBC361F92B07F00A6D083 /* NiceLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		024CBC4E1F92B08700A6D083 /* NiceLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CBC4D1F92B08700A6D083 /* NiceLogger.swift */; };
@@ -18,8 +18,8 @@
 		024CBC601F92B0D600A6D083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024CBC5E1F92B0D600A6D083 /* LaunchScreen.storyboard */; };
 		024CBC6B1F92B0D600A6D083 /* exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CBC6A1F92B0D600A6D083 /* exampleTests.swift */; };
 		024CBC761F92B0D600A6D083 /* exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CBC751F92B0D600A6D083 /* exampleUITests.swift */; };
-		024CBC831F92B15A00A6D083 /* NiceLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024CBC331F92B07F00A6D083 /* NiceLogger.framework */; };
-		024CBC841F92B15A00A6D083 /* NiceLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 024CBC331F92B07F00A6D083 /* NiceLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		024CBC831F92B15A00A6D083 /* LoggerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024CBC331F92B07F00A6D083 /* LoggerFramework.framework */; };
+		024CBC841F92B15A00A6D083 /* LoggerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 024CBC331F92B07F00A6D083 /* LoggerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				024CBC841F92B15A00A6D083 /* NiceLogger.framework in Embed Frameworks */,
+				024CBC841F92B15A00A6D083 /* LoggerFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,10 +68,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		024CBC331F92B07F00A6D083 /* NiceLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NiceLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		024CBC331F92B07F00A6D083 /* LoggerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		024CBC361F92B07F00A6D083 /* NiceLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiceLogger.h; sourceTree = "<group>"; };
 		024CBC371F92B07F00A6D083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		024CBC3C1F92B07F00A6D083 /* NiceLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		024CBC3C1F92B07F00A6D083 /* LoggerFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoggerFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		024CBC411F92B08000A6D083 /* NiceLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceLoggerTests.swift; sourceTree = "<group>"; };
 		024CBC431F92B08000A6D083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		024CBC4D1F92B08700A6D083 /* NiceLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceLogger.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				024CBC3D1F92B07F00A6D083 /* NiceLogger.framework in Frameworks */,
+				024CBC3D1F92B07F00A6D083 /* LoggerFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				024CBC831F92B15A00A6D083 /* NiceLogger.framework in Frameworks */,
+				024CBC831F92B15A00A6D083 /* LoggerFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +147,8 @@
 		024CBC341F92B07F00A6D083 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				024CBC331F92B07F00A6D083 /* NiceLogger.framework */,
-				024CBC3C1F92B07F00A6D083 /* NiceLoggerTests.xctest */,
+				024CBC331F92B07F00A6D083 /* LoggerFramework.framework */,
+				024CBC3C1F92B07F00A6D083 /* LoggerFrameworkTests.xctest */,
 				024CBC531F92B0D600A6D083 /* example.app */,
 				024CBC661F92B0D600A6D083 /* exampleTests.xctest */,
 				024CBC711F92B0D600A6D083 /* exampleUITests.xctest */,
@@ -227,9 +227,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		024CBC321F92B07F00A6D083 /* NiceLogger */ = {
+		024CBC321F92B07F00A6D083 /* LoggerFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 024CBC471F92B08000A6D083 /* Build configuration list for PBXNativeTarget "NiceLogger" */;
+			buildConfigurationList = 024CBC471F92B08000A6D083 /* Build configuration list for PBXNativeTarget "LoggerFramework" */;
 			buildPhases = (
 				024CBC2E1F92B07F00A6D083 /* Sources */,
 				024CBC2F1F92B07F00A6D083 /* Frameworks */,
@@ -240,14 +240,14 @@
 			);
 			dependencies = (
 			);
-			name = NiceLogger;
+			name = LoggerFramework;
 			productName = NiceLogger;
-			productReference = 024CBC331F92B07F00A6D083 /* NiceLogger.framework */;
+			productReference = 024CBC331F92B07F00A6D083 /* LoggerFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		024CBC3B1F92B07F00A6D083 /* NiceLoggerTests */ = {
+		024CBC3B1F92B07F00A6D083 /* LoggerFrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 024CBC4A1F92B08000A6D083 /* Build configuration list for PBXNativeTarget "NiceLoggerTests" */;
+			buildConfigurationList = 024CBC4A1F92B08000A6D083 /* Build configuration list for PBXNativeTarget "LoggerFrameworkTests" */;
 			buildPhases = (
 				024CBC381F92B07F00A6D083 /* Sources */,
 				024CBC391F92B07F00A6D083 /* Frameworks */,
@@ -258,9 +258,9 @@
 			dependencies = (
 				024CBC3F1F92B07F00A6D083 /* PBXTargetDependency */,
 			);
-			name = NiceLoggerTests;
+			name = LoggerFrameworkTests;
 			productName = NiceLoggerTests;
-			productReference = 024CBC3C1F92B07F00A6D083 /* NiceLoggerTests.xctest */;
+			productReference = 024CBC3C1F92B07F00A6D083 /* LoggerFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		024CBC521F92B0D600A6D083 /* example */ = {
@@ -353,7 +353,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 024CBC2D1F92B07F00A6D083 /* Build configuration list for PBXProject "NiceLogger" */;
+			buildConfigurationList = 024CBC2D1F92B07F00A6D083 /* Build configuration list for PBXProject "LoggerFramework" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -366,8 +366,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				024CBC321F92B07F00A6D083 /* NiceLogger */,
-				024CBC3B1F92B07F00A6D083 /* NiceLoggerTests */,
+				024CBC321F92B07F00A6D083 /* LoggerFramework */,
+				024CBC3B1F92B07F00A6D083 /* LoggerFrameworkTests */,
 				024CBC521F92B0D600A6D083 /* example */,
 				024CBC651F92B0D600A6D083 /* exampleTests */,
 				024CBC701F92B0D600A6D083 /* exampleUITests */,
@@ -463,7 +463,7 @@
 /* Begin PBXTargetDependency section */
 		024CBC3F1F92B07F00A6D083 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 024CBC321F92B07F00A6D083 /* NiceLogger */;
+			target = 024CBC321F92B07F00A6D083 /* LoggerFramework */;
 			targetProxy = 024CBC3E1F92B07F00A6D083 /* PBXContainerItemProxy */;
 		};
 		024CBC681F92B0D600A6D083 /* PBXTargetDependency */ = {
@@ -478,7 +478,7 @@
 		};
 		024CBC861F92B15A00A6D083 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 024CBC321F92B07F00A6D083 /* NiceLogger */;
+			target = 024CBC321F92B07F00A6D083 /* LoggerFramework */;
 			targetProxy = 024CBC851F92B15A00A6D083 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -792,7 +792,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		024CBC2D1F92B07F00A6D083 /* Build configuration list for PBXProject "NiceLogger" */ = {
+		024CBC2D1F92B07F00A6D083 /* Build configuration list for PBXProject "LoggerFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				024CBC451F92B08000A6D083 /* Debug */,
@@ -801,7 +801,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		024CBC471F92B08000A6D083 /* Build configuration list for PBXNativeTarget "NiceLogger" */ = {
+		024CBC471F92B08000A6D083 /* Build configuration list for PBXNativeTarget "LoggerFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				024CBC481F92B08000A6D083 /* Debug */,
@@ -810,7 +810,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		024CBC4A1F92B08000A6D083 /* Build configuration list for PBXNativeTarget "NiceLoggerTests" */ = {
+		024CBC4A1F92B08000A6D083 /* Build configuration list for PBXNativeTarget "LoggerFrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				024CBC4B1F92B08000A6D083 /* Debug */,

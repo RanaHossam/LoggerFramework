@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "LoggerFramework"
+  s.name         = "NiceLogger"
   s.version      = "1.0.0"
   s.summary      = "A nice logger tool in Swift."
 
@@ -74,8 +74,8 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.ios.deployment_target = '8.0'
-  s.ios.vendored_frameworks = 'NiceLogger.framework'
+  s.ios.deployment_target = '13.0'
+  s.ios.vendored_frameworks = 'LoggerFramework/NiceLogger.framework'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source       = { :git => "http://EXAMPLE/NiceLogger.git", :tag => "#{s.version}" }
-  s.source       = { :git => "https://github.com/RanaHossam/LoggerFramework.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/RanaHossam/LoggerFramework/blob/master/LoggerFramework.zip", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
